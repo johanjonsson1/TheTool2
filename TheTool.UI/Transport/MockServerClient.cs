@@ -16,8 +16,6 @@ public class MockServerClient : IServerClient
 
     public async Task<List<SourceDirectory>> Get()
     {
-        // TODO: mer generell ändra example också copy bild och mp4 .p
-        // TODO: städa och gör eget nytt repo TheTool2
         await Task.Delay(1500);
 
         return new List<SourceDirectory>
