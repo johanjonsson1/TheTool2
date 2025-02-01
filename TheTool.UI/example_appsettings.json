@@ -1,0 +1,38 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "ServerSettings": {
+    "Ip": "192.168.0.101",
+    "Port": 5555
+  },
+  "ClientSettings": {
+    "ActionCompletedFolder": "\\\\192.168.0.101\\Texts"
+  },
+  "UILogLevel": {
+    "LogLevel": "Debug"
+  },
+  "Mock": false,
+  "SourceConfig": {
+    "FileExtensionFilter": [
+      ".txt"
+    ],
+    "Sources": [
+      {
+        "Path": "C:\\Temp\\text1",
+        "Tag": "Long"
+      },
+      {
+        "Path": "C:\\Temp\\text2\\long",
+        "Tag": "Long"
+      },
+      {
+        "Path": "C:\\Temp\\shorts",
+        "Tag": "Short"
+      }
+    ]
+  }  
+}

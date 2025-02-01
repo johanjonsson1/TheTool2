@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<PublishAot>true</PublishAot>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<JsonSerializerIsReflectionEnabledByDefault>false</JsonSerializerIsReflectionEnabledByDefault>
+		<EnableConfigurationBindingGenerator>true</EnableConfigurationBindingGenerator>
+		<UserSecretsId>e580e4dc-d5a5-43d6-9cde-64d063b993c1</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TheTool.Core\TheTool.Core.csproj" />
+	</ItemGroup>
+</Project>
